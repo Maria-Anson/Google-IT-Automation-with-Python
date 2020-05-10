@@ -8,7 +8,8 @@
 > 
 >  Functions let us to use Python as a calculator. 
 > 
->  Functions are pieces of code that perform a unit of work. 
+
+    >  Functions are pieces of code that perform a unit of work. 
 > 
 >  Functions are only used to print messages to the screen. 
 > 
@@ -26,7 +27,8 @@
 > 
 > What are keywords in Python? 
 > 
->  Keywords are reserved words that are used to construct instructions. 
+
+    >  Keywords are reserved words that are used to construct instructions. 
 > 
 >  Keywords are used to calculate mathematical operations. 
 > 
@@ -50,7 +52,8 @@
 > 
 >  The print function stores values provided by the user. 
 > 
->  The print function outputs messages to the screen 
+      
+    >  The print function outputs messages to the screen 
 > 
 >  The print function calculates mathematical operations. 
 > 
@@ -68,7 +71,8 @@
 > 
 > 1
 > 
-> print("Programming in Python is fun!")
+
+    > print("Programming in Python is fun!")
 > 
 > XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 > 
@@ -76,7 +80,8 @@
 > 
 > <pre class="rc-ConsoleOutput">
 > 
-> Programming in Python is fun!
+
+    > Programming in Python is fun!
 > 
 > </pre>
 > 
@@ -103,7 +108,8 @@
 > 
 > 2
 > 
-> ratio = (1+(5**(1/2)))/2
+
+    > ratio = (1+(5**(1/2)))/2
 > 
 > print(ratio)
 > 
@@ -113,7 +119,8 @@
 > 
 > <pre class="rc-ConsoleOutput">
 > 
-> 1.618033988749895
+
+    > 1.618033988749895
 > 
 > </pre>
 > 
