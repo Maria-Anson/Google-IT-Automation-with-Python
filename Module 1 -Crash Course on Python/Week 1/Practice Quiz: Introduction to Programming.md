@@ -126,5 +126,4 @@
 > Nice job! Like human language, the intended meaning or effect of words, or in this case instructions, are referred to as semantics.
 > 
 > 1 / 1 point
->
-> -- https://www.coursera.org/learn/python-crash-course/quiz/5nR8G/practice-quiz-introduction-to-programming/attempt?redirectToCover=true#Tunnel Vision Close
+
