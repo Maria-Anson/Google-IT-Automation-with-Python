@@ -14,7 +14,8 @@
 > 
 >  The overview of what the computer will have to do to solve some automation problem. 
 > 
->  A step-by-step recipe of what needs to be done to complete a task, that gets executed by the computer. 
+  
+    >  A step-by-step recipe of what needs to be done to complete a task, that gets executed by the computer. 
 > 
 > Check
 > 
@@ -30,7 +31,8 @@
 > 
 >  The inputs and outputs of a program. 
 > 
->  The process of replacing a manual step with one that happens automatically. 
+  
+    >  The process of replacing a manual step with one that happens automatically. 
 > 
 >  The checkout processes at a grocery store. 
 > 
@@ -50,7 +52,8 @@
 > 
 >  Writing a computer program. 
 > 
->  Creating a report of how much each sales person has sold in the last month. 
+
+    >  Creating a report of how much each sales person has sold in the last month. 
 > 
 > Check
 > 
@@ -58,7 +61,8 @@
 > 
 > You nailed it! Creating reports based on data are a great example of things that can be automated.
 > 
->  Setting the home directory and access permissions for new employees joining your company. 
+
+    >  Setting the home directory and access permissions for new employees joining your company. 
 > 
 > Check
 > 
@@ -70,7 +74,8 @@
 > 
 >  Taking pictures of friends and family at a wedding. 
 > 
->  Populating your company's e-commerce site with the latest products in the catalog. 
+
+    >  Populating your company's e-commerce site with the latest products in the catalog. 
 > 
 > Check
 > 
@@ -84,7 +89,8 @@
 > 
 > What are some characteristics of the Python programming language? Check all that apply. 
 > 
->  Python programs are easy to write and understand. 
+
+    >  Python programs are easy to write and understand. 
 > 
 > Check
 > 
@@ -92,7 +98,8 @@
 > 
 > Right on! Because the syntax used by Python is similar to the one used by the English language, Python programs are easy to write and understand.
 > 
->  The Python interpreter reads our code and transforms it into computer instructions. 
+
+    >  The Python interpreter reads our code and transforms it into computer instructions. 
 > 
 > Check
 > 
@@ -102,7 +109,8 @@
 > 
 >  It's an outdated language that's barely in use anymore. 
 > 
->  We can practice Python using web interpreters or codepads as well as executing it locally. 
+
+    >  We can practice Python using web interpreters or codepads as well as executing it locally. 
 > 
 > Check
 > 
@@ -118,7 +126,8 @@
 > 
 >  Python is the only programming language that is worth learning. 
 > 
->  Each programming language has its advantages and disadvantages. 
+
+    >  Each programming language has its advantages and disadvantages. 
 > 
 >  It's always better to use an OS specific language like Bash or Powershell than using a generic language like Python. 
 > 
@@ -138,7 +147,8 @@
 > 
 > 1
 > 
-> print("Automating with Python is fun!")
+
+    > print("Automating with Python is fun!")
 > 
 > XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 > 
@@ -146,7 +156,8 @@
 > 
 > <pre class="rc-ConsoleOutput">
 > 
-> Automating with Python is fun!
+
+    > Automating with Python is fun!
 > 
 > </pre>
 > 
@@ -172,11 +183,12 @@
 > 
 > 3
 > 
-> color = "Yellow"
-> 
-> thing = "sunshine"
-> 
-> print(color + " is the color of " + thing)
+
+    > color = "Yellow"
+    > 
+    > thing = "sunshine"
+    > 
+    > print(color + " is the color of " + thing)
 > 
 > XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 > 
@@ -184,7 +196,8 @@
 > 
 > <pre class="rc-ConsoleOutput">
 > 
-> Yellow is the color of sunshine
+
+    > Yellow is the color of sunshine
 > 
 > </pre>
 > 
@@ -209,7 +222,8 @@
 > 
 > 1
 > 
-> print(7*86400)
+
+    > print(7*86400)
 > 
 > XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 > 
@@ -217,7 +231,8 @@
 > 
 > <pre class="rc-ConsoleOutput">
 > 
-> 604800
+
+    > 604800
 > 
 > </pre>
 > 
@@ -240,7 +255,8 @@
 > 
 > 1
 > 
-> print(26**6)
+
+    > print(26**6)
 > 
 > XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 > 
@@ -248,7 +264,8 @@
 > 
 > <pre class="rc-ConsoleOutput">
 > 
-> 308915776
+
+    > 308915776
 > 
 > </pre>
 > 
@@ -281,13 +298,14 @@
 > 
 > 5
 > 
-> disk_size = 16*1024*1024*1024
-> 
-> sector_size = 512
-> 
-> sector_amount = disk_size/sector_size
-> 
-> print(sector_amount)
+
+    > disk_size = 16*1024*1024*1024
+    > 
+    > sector_size = 512
+    > 
+    > sector_amount = disk_size/sector_size
+    > 
+    > print(sector_amount)
 > 
 > XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 > 
@@ -295,7 +313,8 @@
 > 
 > <pre class="rc-ConsoleOutput">
 > 
-> 33554432.0
+
+    > 33554432.0
 > 
 > </pre>
 > 
