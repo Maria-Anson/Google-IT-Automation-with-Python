@@ -8,7 +8,8 @@
 > 
 > 1
 > 
-> print("My first Python program")
+
+        > print("My first Python program")
 > 
 > XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 > 
@@ -16,7 +17,8 @@
 > 
 > <pre class="rc-ConsoleOutput">
 > 
-> My first Python program
+
+        > My first Python program
 > 
 > </pre>
 > 
@@ -39,7 +41,8 @@
 > 
 >  Machine language 
 > 
->  General purpose scripting language 
+      
+      >  General purpose scripting language 
 > 
 >  Client-side scripting language 
 > 
@@ -59,7 +62,8 @@
 > 
 > 1
 > 
-> print("Have a nice day")
+      
+      > print("Have a nice day")
 > 
 > XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 > 
@@ -67,7 +71,8 @@
 > 
 > <pre class="rc-ConsoleOutput">
 > 
-> Have a nice day
+      
+      > Have a nice day
 > 
 > </pre>
 > 
@@ -92,9 +97,10 @@
 > 
 > 2
 > 
-> for i in range(5):
-> 
-> print("This is fun!")
+
+    > for i in range(5):
+    > 
+    > print("This is fun!")
 > 
 > XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 > 
@@ -102,11 +108,12 @@
 > 
 > <pre class="rc-ConsoleOutput">
 > 
-> This is fun!
-> This is fun!
-> This is fun!
-> This is fun!
-> This is fun!
+
+    > This is fun!
+    > This is fun!
+    > This is fun!
+    > This is fun!
+    > This is fun!
 > 
 > </pre>
 > 
@@ -227,9 +234,10 @@
 > 
 > 3
 > 
-> for i in range(10):
-> 
->   print(i)
+
+    > for i in range(10):
+    > 
+    >   print(i)
 > 
 > XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 > 
