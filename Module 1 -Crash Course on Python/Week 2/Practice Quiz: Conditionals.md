@@ -1,4 +1,4 @@
-> ## Practice Quiz: Conditionals
+# Practice Quiz: Conditionals
 > 
 > Total points 5
 > 
