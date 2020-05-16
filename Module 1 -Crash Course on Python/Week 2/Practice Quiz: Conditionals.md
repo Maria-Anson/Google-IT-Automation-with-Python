@@ -181,7 +181,7 @@
      
      return full_blocks * 4096
      
-    print(calculate_storage(1)) # Should be 4096
+     print(calculate_storage(1)) # Should be 4096
      
      print(calculate_storage(4096)) # Should be 4096
      
