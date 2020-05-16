@@ -16,15 +16,16 @@
 > 
 > 5
 > 
-> bill = 47.28
-> 
-> tip = bill * 0.15
-> 
-> total = bill + tip
-> 
-> share = total/2
-> 
-> print("Each person needs to pay " + str(share))
+
+    > bill = 47.28
+    > 
+    > tip = bill * 0.15
+    > 
+    > total = bill + tip
+    > 
+    > share = total/2
+    > 
+    > print("Each person needs to pay " + str(share))
 > 
 > XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 > 
@@ -32,7 +33,8 @@
 > 
 > <pre class="rc-ConsoleOutput">
 > 
-> Each person needs to pay 27.186
+
+    > Each person needs to pay 27.186
 > 
 > </pre>
 > 
@@ -62,13 +64,14 @@
 > 
 > 4
 > 
-> numerator = 10
-> 
-> denominator = 10
-> 
-> result = numerator / denominator
-> 
-> print(result)
+
+    > numerator = 10
+    > 
+    > denominator = 10
+    > 
+    > result = numerator / denominator
+    > 
+    > print(result)
 > 
 > XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 > 
@@ -76,7 +79,8 @@
 > 
 > <pre class="rc-ConsoleOutput">
 > 
-> 1.0
+
+    > 1.0
 > 
 > </pre>
 > 
@@ -113,24 +117,25 @@
 > 8
 > 
 > 9
-> 
-> word1 = "How"
-> 
-> word2 = "do"
-> 
-> word3 = "you"
-> 
-> word4 = "like"
-> 
-> word5 = "Python"
-> 
-> word6 = "so"
-> 
-> word7 = "far?"
-> 
-> print( word1 + " " + word2 + " " + word3 + " " + word4 + " " + word5 + " " +
-> 
->   word6 + " " + word7 )
+>
+
+    > word1 = "How"
+    > 
+    > word2 = "do"
+    > 
+    > word3 = "you"
+    > 
+    > word4 = "like"
+    > 
+    > word5 = "Python"
+    > 
+    > word6 = "so"
+    > 
+    > word7 = "far?"
+    > 
+    > print( word1 + " " + word2 + " " + word3 + " " + word4 + " " + word5 + " " +
+    > 
+    >   word6 + " " + word7 )
 > 
 > XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 > 
@@ -138,7 +143,8 @@
 > 
 > <pre class="rc-ConsoleOutput">
 > 
-> How do you like Python so far?
+
+    > How do you like Python so far?
 > 
 > </pre>
 > 
@@ -160,7 +166,8 @@
 > 
 > 1
 > 
-> print("2 + 2 = " + str(2 + 2))
+
+    > print("2 + 2 = " + str(2 + 2))
 > 
 > XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 > 
@@ -168,7 +175,8 @@
 > 
 > <pre class="rc-ConsoleOutput">
 > 
-> 2 + 2 = 4
+
+    > 2 + 2 = 4
 > 
 > </pre>
 > 
@@ -191,7 +199,8 @@
 > 
 >  An explicit conversion 
 > 
->  An expression 
+
+    >  An expression 
 > 
 >  A variable 
 > 
