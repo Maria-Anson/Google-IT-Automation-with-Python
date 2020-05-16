@@ -11,41 +11,6 @@
 > 3.  Fill in the blank to print the result of the conversion
 > 4.  Calculate the round-trip in kilometers by doubling the result, and fill in the blank to print the result 
 > 
-> 1
-> 
-> 2
-> 
-> 3
-> 
-> 4
-> 
-> 5
-> 
-> 6
-> 
-> 7
-> 
-> 8
-> 
-> 9
-> 
-> 10
-> 
-> 11
-> 
-> 12
-> 
-> 13
-> 
-> 14
-> 
-> 15
-> 
-> 16
-> 
-> 17
-> 
-> 18
 >
 
     > # 1) Complete the function to return the result of the conversion
@@ -108,29 +73,6 @@
 > 
 > Hint: if a function returns multiple values, don't forget to store these values in multiple variables 
 > 
-> 1
-> 
-> 2
-> 
-> 3
-> 
-> 4
-> 
-> 5
-> 
-> 6
-> 
-> 7
-> 
-> 8
-> 
-> 9
-> 
-> 10
-> 
-> 11
-> 
-> 12
 > 
 
     > # This function compares two numbers and returns them
@@ -204,21 +146,6 @@
 > 
 > Let's revisit our lucky_number function. We want to change it, so that instead of printing the message, it returns the message. This way, the calling line can print the message, or do something else with it if needed. Fill in the blanks to complete the code to make it work. 
 > 
-> 1
-> 
-> 2
-> 
-> 3
-> 
-> 4
-> 
-> 5
-> 
-> 6
-> 
-> 7
-> 
-> 8
 > 
 
     > def lucky_number(name):
