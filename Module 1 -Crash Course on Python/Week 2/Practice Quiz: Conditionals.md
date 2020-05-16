@@ -11,7 +11,7 @@
 >  2**2 
 > 
 
-    >  True 
+      True 
 > 
 >  False 
 > 
@@ -29,19 +29,19 @@
 > 
 >
 
-    > def greeting(name):
-    > 
-    > if name == "Taylor":
-    > 
-    > return "Welcome back Taylor!"
-    > 
-    > else:
-    > 
-    > return "Hello there, " + name
-    > 
-    > print(greeting("Taylor"))
-    > 
-    > print(greeting("John"))
+     def greeting(name):
+     
+     if name == "Taylor":
+     
+     return "Welcome back Taylor!"
+     
+     else:
+     
+     return "Hello there, " + name
+    
+     print(greeting("Taylor"))
+     
+     print(greeting("John"))
 > 
 > XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 > 
@@ -50,8 +50,8 @@
 > <pre class="rc-ConsoleOutput">
 > 
 
-    > Welcome back Taylor!
-    > Hello there, John
+     Welcome back Taylor!
+     Hello there, John
 > 
 > </pre>
 > 
@@ -73,29 +73,29 @@
 > 
 > <pre contenteditable="false" data-language="python" tabindex="0" style="opacity: 1;">
 > 
-> 
-
-    > if number > 11: 
-    > 
-    >   print(0)
-    > 
-    > elif number != 10:
-    > 
-    >   print(1)
-    > 
-    > elif number >= 20 or number < 12:
-    > 
-    >   print(2)
-    > 
-    > else:
-    > 
-    >   print(3)
+ 
+     if number > 11: 
+     
+       print(0)
+     
+     elif number != 10:
+     
+       print(1)
+     
+     elif number >= 20 or number < 12:
+     
+       print(2)
+     
+     else:
+    
+       print(3)
     > 
 > XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 > 
 > </pre> 
 > 
-> 2
+
+     2
 > 
 > Check
 > 
@@ -116,9 +116,9 @@
 > 2
 > 
 
-    > print("A dog" > "A mouse")
-    > 
-    > print((9999+8888) > (100*100))
+     print("A dog" > "A mouse")
+     
+     print((9999+8888) > (100*100))
 > 
 > XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 > 
@@ -127,8 +127,8 @@
 > <pre class="rc-ConsoleOutput">
 > 
 
-    > False
-    > True
+     False
+     True
 > 
 > </pre>
 > 
@@ -137,7 +137,7 @@
 >  "A dog" is larger than "A mouse" and 9999+8888 is larger than 100*100 
 > 
 
-    >  "A dog" is smaller than "A mouse" and 9999+8888 is larger than 100*100 
+      "A dog" is smaller than "A mouse" and 9999+8888 is larger than 100*100 
 > 
 >  "A dog" is larger than "A mouse" and 9999+8888 is smaller than 100*100 
 > 
@@ -157,37 +157,37 @@
 > 
 > 
 
-    > def calculate_storage(filesize):
-    > 
-    > block_size = 4096
-    > 
-    > # Use floor division to calculate how many blocks are fully occupied
-    > 
-    > full_blocks = filesize//block_size
-    > 
-    > # Use the modulo operator to check whether there's any remainder
-    > 
-    > partial_block_remainder = filesize%block_size
-    > 
-    > # Depending on whether there's a remainder or not, return
-    > 
-    > # the total number of bytes required to allocate enough blocks
-    > 
-    > # to store your data.
-    > 
-    > if partial_block_remainder > 0:
-    > 
-    > return full_blocks*4096 + 4096
-    > 
-    > return full_blocks * 4096
-    > 
-    > print(calculate_storage(1)) # Should be 4096
-    > 
-    > print(calculate_storage(4096)) # Should be 4096
-    > 
-    > print(calculate_storage(4097)) # Should be 8192
-    > 
-    > print(calculate_storage(6000)) # Should be 8192
+     def calculate_storage(filesize):
+     
+     block_size = 4096
+    
+     # Use floor division to calculate how many blocks are fully occupied
+     
+     full_blocks = filesize//block_size
+     
+     # Use the modulo operator to check whether there's any remainder
+    
+     partial_block_remainder = filesize%block_size
+     
+     # Depending on whether there's a remainder or not, return
+     
+     # the total number of bytes required to allocate enough blocks
+     
+     # to store your data.
+     
+     if partial_block_remainder > 0:
+     
+     return full_blocks*4096 + 4096
+     
+     return full_blocks * 4096
+     
+    print(calculate_storage(1)) # Should be 4096
+     
+     print(calculate_storage(4096)) # Should be 4096
+     
+     print(calculate_storage(4097)) # Should be 8192
+     
+     print(calculate_storage(6000)) # Should be 8192
     > 
 > XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 > 
@@ -196,10 +196,10 @@
 > <pre class="rc-ConsoleOutput">
 > 
 
-    > 4096
-    > 4096
-    > 8192
-    > 8192
+     4096
+     4096
+     8192
+     8192
 > 
 > </pre>
 > 
