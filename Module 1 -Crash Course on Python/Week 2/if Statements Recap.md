@@ -1,0 +1,3 @@
+> We can use the concept of **branching** to have our code alter its execution sequence depending on the values of variables. We can use an _if_ statement to evaluate a comparison. We start with the _if_ keyword, followed by our comparison. We end the line with a colon. The body of the _if_ statement is then indented to the right. If the comparison is **_True_**, the code inside the _if_ body is executed. If the comparison evaluates to **_False_**_,_ then the code block is skipped and will not be run.
+>
+> -- https://www.coursera.org/learn/python-crash-course/supplement/v9Us9/if-statements-recap#main
