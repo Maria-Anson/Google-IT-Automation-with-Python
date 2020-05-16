@@ -1,4 +1,4 @@
-> ## Practice Quiz: Functions
+Practice Quiz: Functions
 > 
 > Total points 5
 > 
@@ -39,15 +39,15 @@
      
     print("The round-trip in kilometers is " + str(2*my_trip_km))
      
-> XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
 > 
 > RunReset
 > 
 > <pre class="rc-ConsoleOutput">
 >
 
-    > The distance in kilometers is 88.0
-    > The round-trip in kilometers is 176.0
+     The distance in kilometers is 88.0
+     The round-trip in kilometers is 176.0
 > 
 > </pre>
 > 
@@ -75,27 +75,27 @@
 > 
 > 
 
-    > # This function compares two numbers and returns them
+     # This function compares two numbers and returns them
+     
+     # in increasing order.
+     
+     def order_numbers(number1, number2):
+     
+     if number2 > number1:
+     
+     return number1, number2
+     
+     else:
+     
+     return number2, number1
+     
+     # 1) Fill in the blanks so the print statement displays the result
+     
+     # of the function call
+     
+     smaller, bigger = order_numbers(100, 99)
     > 
-    > # in increasing order.
-    > 
-    > def order_numbers(number1, number2):
-    > 
-    > if number2 > number1:
-    > 
-    > return number1, number2
-    > 
-    > else:
-    > 
-    > return number2, number1
-    > 
-    > # 1) Fill in the blanks so the print statement displays the result
-    > 
-    > # of the function call
-    > 
-    > smaller, bigger = order_numbers(100, 99)
-    > 
-    > print(smaller, bigger)
+     print(smaller, bigger)
 > 
 > XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 > 
@@ -130,7 +130,7 @@
 >  Return values 
 >
 
-    >  Parameters 
+    Parameters 
 > 
 >  Data types 
 > 
@@ -148,18 +148,18 @@
 > 
 > 
 
-    > def lucky_number(name):
-    > 
-    > number = len(name) * 9
-    > 
-    > ans = "Hello " + name + ". Your lucky number is " + str(number)
-    > 
-    > return ans
-    > 
-    > print(lucky_number("Kay"))
-    > 
-    > print(lucky_number("Cameron"))
-    > 
+     def lucky_number(name):
+     
+     number = len(name) * 9
+     
+     ans = "Hello " + name + ". Your lucky number is " + str(number)
+     
+     return ans
+     
+     print(lucky_number("Kay"))
+     
+     print(lucky_number("Cameron"))
+     
 > XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 > 
 > RunReset
@@ -167,8 +167,8 @@
 > <pre class="rc-ConsoleOutput">
 >
 
-    > Hello Kay. Your lucky number is 27
-    > Hello Cameron. Your lucky number is 63
+     Hello Kay. Your lucky number is 27
+     Hello Cameron. Your lucky number is 63
 > 
 > </pre>
 > 
@@ -190,7 +190,7 @@
 > What is the purpose of the def keyword? 
 > 
 
-    >  Used to define a new function 
+      Used to define a new function 
 > 
 >  Used to define a return value 
 > 
