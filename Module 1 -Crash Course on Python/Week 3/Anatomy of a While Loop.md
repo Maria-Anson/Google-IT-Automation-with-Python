@@ -1,0 +1,3 @@
+> A _while_ loop will continuously execute code depending on the value of a condition. It begins with the keyword _while,_ followed by a comparison to be evaluated, then a colon. On the next line is the code block to be executed, indented to the right. Similar to an _if_ statement, the code in the body will only be executed if the comparison is evaluated to be true. What sets a _while_ loop apart, however, is that this code block will keep executing as long as the evaluation statement is true. Once the statement is no longer true, the loop exits and the next line of code will be executed.
+>
+> -- https://www.coursera.org/learn/python-crash-course/supplement/3ot5p/anatomy-of-a-while-loop#main
