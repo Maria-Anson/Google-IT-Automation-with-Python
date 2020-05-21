@@ -1,4 +1,4 @@
-> ## Practice Quiz: For Loops
+# Practice Quiz: For Loops
 > 
 > Total points 5
 > 
