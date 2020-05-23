@@ -38,5 +38,15 @@
 > ### Documenting classes, methods and functions
 > 
 > *   You can add documentation to classes, methods, and functions by using docstrings right after the definition. Like this:
+>class ClassName:
+"""Documentation for the class."""
+    def method_name(self, other_parameters):
+        """Documentation for the method."""
+        body_of_method
+        
+def function_name(parameters):
+    """Documentation for the function."""
+    body_of_function
+
 >
 > -- https://www.coursera.org/learn/python-crash-course/supplement/52GBW/classes-and-methods-cheat-sheet-optional#main
