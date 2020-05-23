@@ -97,11 +97,13 @@ class LoadBalancing:
 
     def add_connection(self, connection_id):
         """Randomly selects a server and adds a connection to it."""
+        self.ensure_availability()
         server = random.choice(self.servers)
         # Add the connection to the dictionary with the selected server
-        self.connections[connection_id]=server
+        self.connections[connection_id] = server
         # Add the connection to the server
         server.add_connection(connection_id)
+        
 
     def close_connection(self, connection_id):
         """Closes the connection on the the server corresponding to connection_id."""
@@ -114,14 +116,15 @@ class LoadBalancing:
     def avg_load(self):
         """Calculates the average load of all servers"""
         # Sum the load of each server and divide by the amount of servers
-        total=0
+        total = 0
         for server in self.servers:
-            total += server.load()    
+            total += server.load()
+            
         return total / len(self.servers)
 
     def ensure_availability(self):
         """If the average load is higher than 50, spin up a new server"""
-        if avg_load(self)>50:
+        if self.avg_load() > 50:
             self.servers.append(Server())
 
     def __str__(self):
@@ -141,7 +144,7 @@ print(l.avg_load())
 
 ```
 
-    6.291190635543295
+    7.058374028125247
 
 
 After running the above code, the output is 0.  Fill in the missing parts for the `add_connection` and `avg_load` methods of the LoadBalancing class to make this print the right load. Be sure that the load balancer now has an average load more than 0 before proceeding.
@@ -155,7 +158,7 @@ print(l.avg_load())
 
 ```
 
-    3.1455953177716474
+    3.5291870140626234
 
 
 The average load should now be half of what it was before. If it's not, make sure you correctly fill in the missing gaps for the `add_connection` and `avg_load` methods so that this code works correctly. 
@@ -186,7 +189,7 @@ print(l)
 
 ```
 
-    [44.56%,85.93%]
+    [46.73%,75.39%,5.72%]
 
 
 The code above adds 20 new connections and then prints the loads for each server in the load balancer.  If you coded correctly, new servers should have been added automatically to ensure that the average load of all servers is not more than 50%.
@@ -201,7 +204,7 @@ print(l.avg_load())
 
 ```
 
-    65.24454286132307
+    42.614006126992116
 
 
 Awesome! If the average load is indeed less than 50%, you are all done with this assessment.
