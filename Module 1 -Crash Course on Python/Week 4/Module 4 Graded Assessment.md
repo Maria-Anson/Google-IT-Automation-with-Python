@@ -365,14 +365,6 @@
 > 
 > <pre contenteditable="false" data-language="python" tabindex="0" style="opacity: 1;">
 > 
-> 1
-> 
-> 2
-> 
-> 3
-> 
-> 4
-> 
 > >>> print(animal[3:6])
 > 
 > >>> print(animal[-5])
@@ -406,12 +398,6 @@
 > 
 > <pre contenteditable="false" data-language="python" tabindex="0" style="opacity: 1;">
 > 
-> 1
-> 
-> 2
-> 
-> 3
-> 
 > colors = ["red", "white", "blue"]
 > 
 > colors.insert(2, "yellow")
@@ -441,11 +427,6 @@
 > 
 > <pre contenteditable="false" data-language="python" tabindex="0" style="opacity: 1;">
 > 
-> 1
-> 
-> 2
-> 
-> 3
 > 
 > host_addresses = {"router": "192.168.1.1", "localhost": "127.0.0.1", "google": 
 > 
