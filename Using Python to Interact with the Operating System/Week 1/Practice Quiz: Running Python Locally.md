@@ -8,7 +8,8 @@
 > 
 >  Syntax highlighting 
 > 
->  Code completion 
+
+      Code completion 
 > 
 >  Interpreted language 
 > 
@@ -27,25 +28,7 @@
 > Can you identify the error in the following code?
 > 
 > <pre contenteditable="false" data-language="python" tabindex="0" style="opacity: 1;">
-> 
-> 1
-> 
-> 2
-> 
-> 3
-> 
-> 4
-> 
-> 5
-> 
-> 6
-> 
-> 7
-> 
-> 8
-> 
-> 9
-> 
+>
 > #!/usr/bin/env python3
 > 
 > import numpy as np
@@ -68,7 +51,8 @@
 > 
 >  numpy is not imported correctly because as is used. 
 > 
->  The y variable is not calling the numpy module properly. 
+
+      The y variable is not calling the numpy module properly. 
 > 
 >  The shebang line is not necessary. 
 > 
@@ -86,7 +70,8 @@
 > 
 >  Object-oriented language 
 > 
->  Compiled language 
+
+      Compiled language 
 > 
 >  Interpreted language 
 > 
@@ -106,7 +91,8 @@
 > 
 >  Eclipse 
 > 
->  pip 
+
+      pip 
 > 
 >  Atom 
 > 
@@ -124,7 +110,8 @@
 > 
 > What does the PATH variable do? 
 > 
->  Tells the operating system where to find executables 
+
+      Tells the operating system where to find executables 
 > 
 >  Returns the current working directory 
 > 
