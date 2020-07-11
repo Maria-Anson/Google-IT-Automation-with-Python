@@ -22,33 +22,6 @@
 > 
 > Enter to Rename, Shift+Enter to Preview
 > 
-> .monaco-list.list_id_3:focus .monaco-list-row.focused { background-color: #d6ebff; }
-> .monaco-list.list_id_3:focus .monaco-list-row.focused:hover { background-color: #d6ebff; }
-> .monaco-list.list_id_3:focus .monaco-list-row.selected { background-color: #0069d1; }
-> .monaco-list.list_id_3:focus .monaco-list-row.selected:hover { background-color: #0069d1; }
-> .monaco-list.list_id_3:focus .monaco-list-row.selected { color: #ffffff; }
-> 
-> 				.monaco-drag-image,
-> 				.monaco-list.list_id_3:focus .monaco-list-row.selected.focused { background-color: #0074e8; }
-> 
-> 				.monaco-drag-image,
-> 				.monaco-list.list_id_3:focus .monaco-list-row.selected.focused { color: #ffffff; }
-> 
-> .monaco-list.list_id_3 .monaco-list-row.focused { background-color:  #d6ebff; }
-> .monaco-list.list_id_3 .monaco-list-row.focused:hover { background-color:  #d6ebff; }
-> .monaco-list.list_id_3 .monaco-list-row.selected { background-color:  #e4e6f1; }
-> .monaco-list.list_id_3 .monaco-list-row.selected:hover { background-color:  #e4e6f1; }
-> .monaco-list.list_id_3:not(.drop-target) .monaco-list-row:hover:not(.selected):not(.focused) { background-color:  #f0f0f0; }
-> 
-> 				.monaco-list.list_id_3.drop-target,
-> 				.monaco-list.list_id_3 .monaco-list-rows.drop-target,
-> 				.monaco-list.list_id_3 .monaco-list-row.drop-target { background-color: #d6ebff !important; color: inherit !important; }
-> 
-> .monaco-list-type-filter { background-color: #efc1ad }
-> .monaco-list-type-filter { border: 1px solid rgba(0, 0, 0, 0); }
-> .monaco-list-type-filter.no-matches { border: 1px solid #be1100; }
-> .monaco-list-type-filter { box-shadow: 1px 1px 1px #a8a8a8; }
-> 
 > </pre>
 > 
 > <pre contenteditable="false" data-language="python" style="opacity: 1;">
@@ -86,34 +59,6 @@
 > 
 > Enter to Rename, Shift+Enter to Preview
 > 
-> .monaco-list.list_id_4:focus .monaco-list-row.focused { background-color: #d6ebff; }
-> .monaco-list.list_id_4:focus .monaco-list-row.focused:hover { background-color: #d6ebff; }
-> .monaco-list.list_id_4:focus .monaco-list-row.selected { background-color: #0069d1; }
-> .monaco-list.list_id_4:focus .monaco-list-row.selected:hover { background-color: #0069d1; }
-> .monaco-list.list_id_4:focus .monaco-list-row.selected { color: #ffffff; }
-> 
-> 				.monaco-drag-image,
-> 				.monaco-list.list_id_4:focus .monaco-list-row.selected.focused { background-color: #0074e8; }
-> 
-> 				.monaco-drag-image,
-> 				.monaco-list.list_id_4:focus .monaco-list-row.selected.focused { color: #ffffff; }
-> 
-> .monaco-list.list_id_4 .monaco-list-row.focused { background-color:  #d6ebff; }
-> .monaco-list.list_id_4 .monaco-list-row.focused:hover { background-color:  #d6ebff; }
-> .monaco-list.list_id_4 .monaco-list-row.selected { background-color:  #e4e6f1; }
-> .monaco-list.list_id_4 .monaco-list-row.selected:hover { background-color:  #e4e6f1; }
-> .monaco-list.list_id_4:not(.drop-target) .monaco-list-row:hover:not(.selected):not(.focused) { background-color:  #f0f0f0; }
-> 
-> 				.monaco-list.list_id_4.drop-target,
-> 				.monaco-list.list_id_4 .monaco-list-rows.drop-target,
-> 				.monaco-list.list_id_4 .monaco-list-row.drop-target { background-color: #d6ebff !important; color: inherit !important; }
-> 
-> .monaco-list-type-filter { background-color: #efc1ad }
-> .monaco-list-type-filter { border: 1px solid rgba(0, 0, 0, 0); }
-> .monaco-list-type-filter.no-matches { border: 1px solid #be1100; }
-> .monaco-list-type-filter { box-shadow: 1px 1px 1px #a8a8a8; }
-> 
-> </pre>
 > 
 > Don't worry if this seems complex! Understanding this code isn’t required for understanding how to use binary search in troubleshooting.
 >
