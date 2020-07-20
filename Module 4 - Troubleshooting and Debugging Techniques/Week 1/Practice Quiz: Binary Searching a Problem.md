@@ -29,62 +29,35 @@
 > 
 > 1 / 1 point 
 >
->  def find_item(list, item):
->   #Returns True if the item is in the list, False if not.
->   if len(list) == 0:
->     return False
-> 
->   #Is the item in the center of the list?
-> 
->   middle = len(list)//2
-> 
->   if list[middle] == item:
-> 
->     return True
-> 
->   #Is the item in the first half of the list? 
-> 
->   if item < list[middle]:
-> 
->     #Call the function with the first half of the list
-> 
->     return find_item(list[:middle], item)
-> 
->   else:
-> 
->     #Call the function with the second half of the list
-> 
->     return find_item(list[middle+1:], item)
-> 
->   return False
-> 
-> #Do not edit below this line - This code helps check your work!
-> 
-> list_of_names = ["Parker", "Drew", "Cameron", "Logan", "Alex", "Chris", "Terry", "Jamie", "Jordan", "Taylor"]
-> 
-> print(find_item(list_of_names, "Alex")) # True
-> 
->   list.sort()
-> 
-> print(find_item(list_of_names, "Andrew")) # False
-> 
-> def find_item(list, item):
-> 
->   #Returns True if the item is in the list, False if not.
-> 
->   if len(list) == 0:
-> 
-> print(find_item(list_of_names, "Drew")) # True
-> 
-> Enter to Rename, Shift+Enter to Preview
-> 
-> .monaco-list.list_id_2:focus .monaco-list-row.focused { background-color: #d6ebff; } .monaco-list.list_id_2:focus .monaco-list-row.focused:hover { background-color: #d6ebff; } .monaco-list.list_id_2:focus .monaco-list-row.selected { background-color: #0069d1; } .monaco-list.list_id_2:focus .monaco-list-row.selected:hover { background-color: #0069d1; } .monaco-list.list_id_2:focus .monaco-list-row.selected { color: #ffffff; } .monaco-drag-image, .monaco-list.list_id_2:focus .monaco-list-row.selected.focused { background-color: #0074e8; } .monaco-drag-image, .monaco-list.list_id_2:focus .monaco-list-row.selected.focused { color: #ffffff; } .monaco-list.list_id_2 .monaco-list-row.focused { background-color: #d6ebff; } .monaco-list.list_id_2 .monaco-list-row.focused:hover { background-color: #d6ebff; } .monaco-list.list_id_2 .monaco-list-row.selected { background-color: #e4e6f1; } .monaco-list.list_id_2 .monaco-list-row.selected:hover { background-color: #e4e6f1; } .monaco-list.list_id_2:not(.drop-target) .monaco-list-row:hover:not(.selected):not(.focused) { background-color: #f0f0f0; } .monaco-list.list_id_2.drop-target, .monaco-list.list_id_2 .monaco-list-rows.drop-target, .monaco-list.list_id_2 .monaco-list-row.drop-target { background-color: #d6ebff !important; color: inherit !important; } .monaco-list-type-filter { background-color: #efc1ad } .monaco-list-type-filter { border: 1px solid rgba(0, 0, 0, 0); } .monaco-list-type-filter.no-matches { border: 1px solid #be1100; } .monaco-list-type-filter { box-shadow: 1px 1px 1px #a8a8a8; }
-> 
-> Enter to accept
-> 
-> RunReset
-> 
-> <pre class="rc-ConsoleOutput">
+def find_item(list, item):
+  #Returns True if the item is in the list, False if not.
+  if len(list) == 0:
+    return False
+
+  #Is the item in the center of the list?
+  middle = len(list)//2
+  if list[middle] == item:
+    return True
+
+  list.sort()
+
+  #Is the item in the first half of the list? 
+  if item < list[middle]:
+    #Call the function with the first half of the list
+    return find_item(list[:middle], item)
+  else:
+    #Call the function with the second half of the list
+    return find_item(list[middle+1:], item)
+
+  return False
+
+#Do not edit below this line - This code helps check your work!
+list_of_names = ["Parker", "Drew", "Cameron", "Logan", "Alex", "Chris", "Terry", "Jamie", "Jordan", "Taylor"]
+
+print(find_item(list_of_names, "Alex")) # True
+print(find_item(list_of_names, "Andrew")) # False
+print(find_item(list_of_names, "Drew")) # True
+print(find_item(list_of_names, "Jared")) # False
 > 
 > True
 > False
@@ -132,83 +105,45 @@ def binary_search(list, key):
             right = middle - 1
         if list[middle] < key:
             print("Checking the right side")
-> 
->             left = middle + 1
-> 
->     return -1 
-> 
-> print(binary_search([10, 2, 9, 6, 7, 1, 5, 3, 4, 8], 1))
-> 
-> """Should print 2 debug lines and the return value:
-> 
-> Checking the left side
-> 
-> Checking the left side
-> 
-> 0
-> 
-> """
-> 
-> print(binary_search([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 5))
-> 
-> """Should print no debug lines, as it's located immediately:
-> 
-> 4
-> 
-> """
-> 
-> print(binary_search([10, 9, 8, 7, 6, 5, 4, 3, 2, 1], 7))
-> 
-> """Should print 3 debug lines and the return value:
-> 
-> Checking the right side
-> 
-> Checking the left side
-> 
-> Checking the right side
-> 
-> 6
-> 
-> """
-> 
->             print("Checking the right side")
-> 
-> print(binary_search([1, 3, 5, 7, 9, 10, 2, 4, 6, 8], 10))
-> 
-> """Should print 3 debug lines and the return value:
-> 
-> Checking the right side
-> 
-> Checking the right side
-> 
-> Checking the right side
-> 
-> 9
-> 
-> """
-> 
-> print(binary_search([5, 1, 8, 2, 4, 10, 7, 6, 3, 9], 11))
-> 
-> """Should print 4 debug lines and the "not found" value of -1:
-> 
-> Checking the right side
-> 
-> Checking the right side
-> 
-> Checking the right side
-> 
-> Checking the right side
-> 
-> -1
-> 
-> """
-> 
-> Enter to Rename, Shift+Enter to Preview
-> 
-> .monaco-list.list_id_3:focus .monaco-list-row.focused { background-color: #d6ebff; } .monaco-list.list_id_3:focus .monaco-list-row.focused:hover { background-color: #d6ebff; } .monaco-list.list_id_3:focus .monaco-list-row.selected { background-color: #0069d1; } .monaco-list.list_id_3:focus .monaco-list-row.selected:hover { background-color: #0069d1; } .monaco-list.list_id_3:focus .monaco-list-row.selected { color: #ffffff; } .monaco-drag-image, .monaco-list.list_id_3:focus .monaco-list-row.selected.focused { background-color: #0074e8; } .monaco-drag-image, .monaco-list.list_id_3:focus .monaco-list-row.selected.focused { color: #ffffff; } .monaco-list.list_id_3 .monaco-list-row.focused { background-color: #d6ebff; } .monaco-list.list_id_3 .monaco-list-row.focused:hover { background-color: #d6ebff; } .monaco-list.list_id_3 .monaco-list-row.selected { background-color: #e4e6f1; } .monaco-list.list_id_3 .monaco-list-row.selected:hover { background-color: #e4e6f1; } .monaco-list.list_id_3:not(.drop-target) .monaco-list-row:hover:not(.selected):not(.focused) { background-color: #f0f0f0; } .monaco-list.list_id_3.drop-target, .monaco-list.list_id_3 .monaco-list-rows.drop-target, .monaco-list.list_id_3 .monaco-list-row.drop-target { background-color: #d6ebff !important; color: inherit !important; } .monaco-list-type-filter { background-color: #efc1ad } .monaco-list-type-filter { border: 1px solid rgba(0, 0, 0, 0); } .monaco-list-type-filter.no-matches { border: 1px solid #be1100; } .monaco-list-type-filter { box-shadow: 1px 1px 1px #a8a8a8; }
-> 
-> Enter to accept
-> 
+            left = middle + 1
+    return -1 
+
+print(binary_search([10, 2, 9, 6, 7, 1, 5, 3, 4, 8], 1))
+"""Should print 2 debug lines and the return value:
+Checking the left side
+Checking the left side
+0
+"""
+
+print(binary_search([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 5))
+"""Should print no debug lines, as it's located immediately:
+4
+"""
+
+print(binary_search([10, 9, 8, 7, 6, 5, 4, 3, 2, 1], 7))
+"""Should print 3 debug lines and the return value:
+Checking the right side
+Checking the left side
+Checking the right side
+6
+"""
+
+print(binary_search([1, 3, 5, 7, 9, 10, 2, 4, 6, 8], 10))
+"""Should print 3 debug lines and the return value:
+Checking the right side
+Checking the right side
+Checking the right side
+9
+"""
+
+print(binary_search([5, 1, 8, 2, 4, 10, 7, 6, 3, 9], 11))
+"""Should print 4 debug lines and the "not found" value of -1:
+Checking the right side
+Checking the right side
+Checking the right side
+Checking the right side
+-1
+"""
 > RunReset
 > 
 > <pre class="rc-ConsoleOutput">
@@ -271,82 +206,68 @@ def binary_search(list, key):
 > 
 > 1 / 1 point 
 
-> 
->     while left <= right:
-> 
->         steps += 1
-> 
->         middle = (left + right) // 2
-> 
->         if list[middle] == key:
-> 
->             break
-> 
->         if list[middle] > key:
-> 
->             right = middle - 1
-> 
->         if list[middle] < key:
-> 
->             left = middle + 1
-> 
->     return steps
-> 
-> def best_search(list, key):
-> 
->     steps_linear = linear_search(list,key) 
-> 
->     steps_binary = binary_search(list,key)
-> 
->     results = "Linear: " + str(steps_linear) + " steps, "
-> 
->     results += "Binary: " + str(steps_binary) + " steps. "
-> 
->     if (steps_linear < steps_binary):
-> 
->     steps=1
-> 
->     left = 0
-> 
->     right = len(list) - 1
-> 
->     list.sort()
-> 
->     #The Sort was 1 step, so initialize the counter of steps to 1
-> 
->     for i, item in enumerate(list):
-> 
->         steps += 1
-> 
->         if item == key:
-> 
->             break
-> 
->     return steps 
-> 
-> def binary_search(list, key):
-> 
->     #Returns the number of steps to determine if key is in the list 
-> 
->     #List must be sorted:
-> 
-> def linear_search(list, key):
-> 
->     #Returns the number of steps to determine if key is in the list 
-> 
->     #Initialize the counter of steps
-> 
->     steps=0
-> 
-> Enter to Rename, Shift+Enter to Preview
-> 
-> .monaco-list.list_id_1:focus .monaco-list-row.focused { background-color: #d6ebff; } .monaco-list.list_id_1:focus .monaco-list-row.focused:hover { background-color: #d6ebff; } .monaco-list.list_id_1:focus .monaco-list-row.selected { background-color: #0069d1; } .monaco-list.list_id_1:focus .monaco-list-row.selected:hover { background-color: #0069d1; } .monaco-list.list_id_1:focus .monaco-list-row.selected { color: #ffffff; } .monaco-drag-image, .monaco-list.list_id_1:focus .monaco-list-row.selected.focused { background-color: #0074e8; } .monaco-drag-image, .monaco-list.list_id_1:focus .monaco-list-row.selected.focused { color: #ffffff; } .monaco-list.list_id_1 .monaco-list-row.focused { background-color: #d6ebff; } .monaco-list.list_id_1 .monaco-list-row.focused:hover { background-color: #d6ebff; } .monaco-list.list_id_1 .monaco-list-row.selected { background-color: #e4e6f1; } .monaco-list.list_id_1 .monaco-list-row.selected:hover { background-color: #e4e6f1; } .monaco-list.list_id_1:not(.drop-target) .monaco-list-row:hover:not(.selected):not(.focused) { background-color: #f0f0f0; } .monaco-list.list_id_1.drop-target, .monaco-list.list_id_1 .monaco-list-rows.drop-target, .monaco-list.list_id_1 .monaco-list-row.drop-target { background-color: #d6ebff !important; color: inherit !important; } .monaco-list-type-filter { background-color: #efc1ad } .monaco-list-type-filter { border: 1px solid rgba(0, 0, 0, 0); } .monaco-list-type-filter.no-matches { border: 1px solid #be1100; } .monaco-list-type-filter { box-shadow: 1px 1px 1px #a8a8a8; }
-> 
-> Enter to accept
-> 
-> RunReset
-> 
-> <pre class="rc-ConsoleOutput">
+def linear_search(list, key):
+    #Returns the number of steps to determine if key is in the list 
+
+    #Initialize the counter of steps
+    steps=0
+    for i, item in enumerate(list):
+        steps += 1
+        if item == key:
+            break
+    return steps 
+
+def binary_search(list, key):
+    #Returns the number of steps to determine if key is in the list 
+
+    #List must be sorted:
+    list.sort()
+
+    #The Sort was 1 step, so initialize the counter of steps to 1
+    steps=1
+
+    left = 0
+    right = len(list) - 1
+    while left <= right:
+        steps += 1
+        middle = (left + right) // 2
+        
+        if list[middle] == key:
+            break
+        if list[middle] > key:
+            right = middle - 1
+        if list[middle] < key:
+            left = middle + 1
+    return steps
+
+def best_search(list, key):
+    steps_linear = linear_search(list,key) 
+    steps_binary = binary_search(list,key)
+    results = "Linear: " + str(steps_linear) + " steps, "
+    results += "Binary: " + str(steps_binary) + " steps. "
+    if (steps_linear < steps_binary):
+        results += "Best Search is Linear."
+    elif (steps_binary < steps_linear):
+        results += "Best Search is Binary."
+    else:
+        results += "Result is a Tie."
+
+    return results
+
+print(best_search([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 1))
+#Should be: Linear: 1 steps, Binary: 4 steps. Best Search is Linear.
+
+print(best_search([10, 2, 9, 1, 7, 5, 3, 4, 6, 8], 1))
+#Should be: Linear: 4 steps, Binary: 4 steps. Result is a Tie.
+
+print(best_search([10, 9, 8, 7, 6, 5, 4, 3, 2, 1], 7))
+#Should be: Linear: 4 steps, Binary: 5 steps. Best Search is Linear.
+
+print(best_search([1, 3, 5, 7, 9, 10, 2, 4, 6, 8], 10))
+#Should be: Linear: 6 steps, Binary: 5 steps. Best Search is Binary.
+
+print(best_search([5, 1, 8, 2, 4, 10, 7, 6, 3, 9], 11))
+#Should be: Linear: 10 steps, Binary: 5 steps. Best Search is Binary.
 > 
 > Linear: 1 steps, Binary: 4 steps. Best Search is Linear.
 > Linear: 4 steps, Binary: 4 steps. Result is a Tie.
